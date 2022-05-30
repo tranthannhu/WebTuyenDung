@@ -27,7 +27,7 @@ class CompanySeeder extends Seeder
                 'employment' => 'full time',
                 'education' => 'bachelors',
             ], [
-                'title' => 'Professional designer',
+                'title' => 'Java Developer',
                 'level' => 'Top level',
                 'employment' => 'Part time',
                 'education' => 'bachelors',
@@ -42,7 +42,7 @@ class CompanySeeder extends Seeder
                 'employment' => 'Part time',
                 'education' => 'bachelors',
             ], [
-                'title' => 'Maths Teacher',
+                'title' => 'C++ Leader',
                 'level' => 'Senior level',
                 'employment' => 'full time',
                 'education' => 'master',
@@ -51,7 +51,7 @@ class CompanySeeder extends Seeder
         //user id is 2 that has author role
         $company = Company::factory()->create([
             'company_category_id' => 1,
-            'title' => 'Gabrato company',
+            'title' => 'DAC Data Technology company',
             'logo' => 'images/logo/7.png',
         ]);
         foreach ($details as $index => $detail) {

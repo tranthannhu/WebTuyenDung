@@ -19,26 +19,33 @@ class UserSeeder extends Seeder
         /* password for these users is password */
 
         $factoryUsers = [
-            [
-                'name' => 'admin user',
-                'email' => 'admin@admin.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-                'role' => 'admin'
-            ],
-
+            
             [
                 'name' => 'author user',
                 'email' => 'author@author.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'password' => '12341234', // password
                 'role' => 'author'
             ],
 
             [
                 'name' => 'simple user',
                 'email' => 'user@user.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'password' => '12341234', // password
                 'role' => 'user'
             ],
+            [
+                'name' => 'simple 2 user',
+                'email' => 'user2@user2.com',
+                'password' => '12341234', // password
+                'role' => 'user'
+            ],
+            [
+                'name' => 'admin user',
+                'email' => 'admin@admin.com',
+                'password' => '12341234', // password
+                'role' => 'admin'
+            ],
+
         ];
 
         foreach ($factoryUsers as $user) {

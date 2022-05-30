@@ -20,7 +20,7 @@ class CategorySeeder extends Seeder
             'General Mgmt', 'Banking / Insurance /Financial Services',
             'Construction / Engineering / Architects ',
             'Creative / Graphics / Designing',
-            'Social work', 'hospitality', 'journalism-editor-media', 'Agriculture + Livestock',
+            'Social work', 
             'Teaching profession', 'Engineer', 'Sales', 'Leadership', 'Web development',
             'Mobile App', 'Sales', 'E-Commerce', 'Others'
         ];

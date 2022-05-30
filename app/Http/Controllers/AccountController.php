@@ -13,6 +13,12 @@ use RealRashid\SweetAlert\Facades\Alert;
 
 class AccountController extends Controller
 {
+    protected function create(array $data)
+    {
+        return User::create([
+            'password' =>bcrypt($data['password']),
+        ]);
+    }
     public function __construct()
     {
         $this->middleware('auth');

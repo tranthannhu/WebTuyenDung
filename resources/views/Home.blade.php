@@ -9,7 +9,7 @@
             <div class="px-4">
               <div class="rounded-text">
                 <p>
-                  Find jobs, vacancy, career online.
+                IT NETWORK - TEAM 3
                 </p>
               </div>
               <div class="home-search-bar">
@@ -21,7 +21,7 @@
           <div class="col-sm-12 col-md-6">
             <div class="py-5 px-5 text-center">
               <div class="text-light">
-                <h4>A dream doesn't become reality through magic, it takes sweat, determination and hard work.
+                <h4>A dream doesn't become reality through magic, it takes sweat, determination and hard work :))).
               </h4>
               </div>
             </div>
